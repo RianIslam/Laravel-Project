@@ -23,3 +23,6 @@ Route::get('/hello', function (){
 Route::get('/name', function (){
     return 'my name is rian';
 });
+Route::get('/home',function(){
+    return  view('home');
+});

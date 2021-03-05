@@ -23,3 +23,4 @@ Route::get('/home',function(){
 });
 
 Route::get('/home',[siteController::class, 'index']);
+Route::get('/home',[siteController::class, 'about']);
